@@ -1,7 +1,7 @@
-package com.veromeev.springeater.util.bpp;
+package com.veromeev.springeater.util.spring.profiling;
 
-import com.veromeev.springeater.util.MBean.ProfilingController;
-import com.veromeev.springeater.util.annotation.Profiling;
+import com.veromeev.springeater.util.spring.profiling.ProfilingController;
+import com.veromeev.springeater.util.spring.profiling.Profiling;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 

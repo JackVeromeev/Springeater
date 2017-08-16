@@ -1,4 +1,4 @@
-package com.veromeev.springeater.util.annotation;
+package com.veromeev.springeater.util.spring.profiling;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

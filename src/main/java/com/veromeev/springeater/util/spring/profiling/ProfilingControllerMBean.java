@@ -1,4 +1,4 @@
-package com.veromeev.springeater.util.MBean;
+package com.veromeev.springeater.util.spring.profiling;
 
 
 /**

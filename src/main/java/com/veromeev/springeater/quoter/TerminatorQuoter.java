@@ -1,10 +1,10 @@
 package com.veromeev.springeater.quoter;
 
-import com.veromeev.springeater.util.annotation.Profiling;
-import com.veromeev.springeater.util.annotation.RandomInt;
+import com.veromeev.springeater.util.spring.postproxy.PostProxy;
+import com.veromeev.springeater.util.spring.profiling.Profiling;
+import com.veromeev.springeater.util.spring.randomizer.RandomInt;
 
 import javax.annotation.PostConstruct;
-import java.lang.reflect.Method;
 
 /**
  * Created by jack on 8/15/17.
@@ -37,7 +37,7 @@ public class TerminatorQuoter implements Quoter {
         this.quote = quote;
     }
 
-
+    @PostProxy
     public void sayQuote() {
         for (int i = 0; i < repeats; i++) {
             System.out.println("quote = " + quote);

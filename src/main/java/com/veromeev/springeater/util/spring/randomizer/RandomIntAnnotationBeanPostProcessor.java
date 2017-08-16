@@ -1,6 +1,6 @@
-package com.veromeev.springeater.util.bpp;
+package com.veromeev.springeater.util.spring.randomizer;
 
-import com.veromeev.springeater.util.annotation.RandomInt;
+import com.veromeev.springeater.util.spring.randomizer.RandomInt;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.util.ReflectionUtils;
