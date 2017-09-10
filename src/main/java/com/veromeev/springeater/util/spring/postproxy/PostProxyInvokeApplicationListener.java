@@ -1,8 +1,6 @@
 package com.veromeev.springeater.util.spring.postproxy;
 
-import jdk.nashorn.internal.objects.NativeDebug;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.context.ApplicationContext;
@@ -11,11 +9,6 @@ import org.springframework.context.event.ContextRefreshedEvent;
 
 import java.lang.reflect.Method;
 
-/**
- * Created by jack on 8/16/17.
- *
- * @author Jack Veromeyev
- */
 public class PostProxyInvokeApplicationListener implements ApplicationListener<ContextRefreshedEvent> {
 
     @Autowired
@@ -42,5 +35,4 @@ public class PostProxyInvokeApplicationListener implements ApplicationListener<C
 
         }
     }
-
 }

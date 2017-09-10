@@ -1,5 +1,6 @@
 package com.veromeev.springeater.quoter;
 
+import com.veromeev.springeater.util.spring.deprecatedclass.DeprecatedClass;
 import com.veromeev.springeater.util.spring.postproxy.PostProxy;
 import com.veromeev.springeater.util.spring.profiling.Profiling;
 import com.veromeev.springeater.util.spring.randomizer.RandomInt;
@@ -12,6 +13,7 @@ import javax.annotation.PostConstruct;
  * @author Jack Veromeyev
  */
 
+@DeprecatedClass(newImplementation = T1000Quoter.class)
 @Profiling
 public class TerminatorQuoter implements Quoter {
 

@@ -15,4 +15,5 @@
     <bean class="com.veromeev.springeater.util.spring.randomizer.RandomIntAnnotationBeanPostProcessor" />
     <bean class="com.veromeev.springeater.util.spring.profiling.ProfilingAnnotationBeanPostProcessor" />
     <bean class="com.veromeev.springeater.util.spring.postproxy.PostProxyInvokeApplicationListener" />
+    <bean class="com.veromeev.springeater.util.spring.deprecatedclass.DeprecatedClassReplaceBeanFactoryPostProcessor" />
 </beans>

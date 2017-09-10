@@ -1,7 +1,5 @@
 package com.veromeev.springeater.util.spring.profiling;
 
-import com.veromeev.springeater.util.spring.profiling.ProfilingController;
-import com.veromeev.springeater.util.spring.profiling.Profiling;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 
@@ -14,14 +12,10 @@ import java.lang.reflect.Proxy;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by jack on 8/16/17.
- *
- * @author Jack Veromeyev
- */
 public class ProfilingAnnotationBeanPostProcessor implements BeanPostProcessor {
 
     private Map<String, Class> annotatedClasses = new HashMap<>();
+
     private ProfilingController controller = new ProfilingController();
 
     public ProfilingAnnotationBeanPostProcessor() throws Exception{
